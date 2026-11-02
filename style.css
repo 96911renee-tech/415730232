@@ -1,0 +1,38 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #f2f6fc;
+  font-family: Arial, sans-serif;
+}
+
+canvas {
+  display: block;
+}
+
+.quiz-button {
+  border: none;
+  border-radius: 10px;
+  padding: 12px 22px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.15s, opacity 0.15s;
+  z-index: 10;
+}
+
+.quiz-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.submit-button {
+  background: #2878c8;
+  color: white;
+}
+
+.reset-button {
+  background: #dfe7f2;
+  color: #30445e;
+}
